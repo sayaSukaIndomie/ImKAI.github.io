@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=JetBrains+Mono:wght@200&family=Kanit&family=Manrope:wght@200;300&family=VT323&family=Ysabeau+Office:ital,wght@1,500&display=swap');
+
+html {
+    overflow-x: hidden;
+    background: #2C2929;
+}
+
+a {
+    text-decoration: none;
+    color: #E5D9D9;
+    transition: all .4s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.3);
+}
+
+.home {
+    display: flex;
+    width: 10.625rem;
+    height: 3.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #E5D9D9;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.icon {
+    margin-top: 7.5rem;
+}
+
+.pic-1 {
+    margin-top: 20rem;
+    height: 50%;
+    width: 75%;
+}
+
+.pic-2 {
+    margin-top: 20rem;
+    height: 50%;
+    width: 75%;
+}
+
+.underConstruction {
+    height: 20%;
+    width: 20%;
+    margin-top: 6.5rem;
+}
+
+.copyright {
+    margin-top: 30rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
